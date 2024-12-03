@@ -29,38 +29,3 @@ Features
 ● Displays confusion matrices
 ● Allows real-time cipher algorithm prediction
 ● User-friendly interface for inputting plaintext and ciphertext
-Technologies Used
-Programming Language
-● Python 3.8+
-Libraries and Frameworks
-● Cryptography
-● Data Processing:
-○ pandas
-○ numpy
-● Machine Learning:
-○ scikit-learn
-○ TensorFlow
-○ Keras
-● Web Interface:
-○ Streamlit
-Tools
-● Dataset Manipulation: csv, json
-● Development Environment: PyCharm
-Usage
-1. Generate dataset by running cry.py
-2. Train models by initializing CipherClassifier
-3. Launch Streamlit app to view reports or make predictions
-Project Methodology
-Cipher Implementation
-● Quagmire1 Cipher:
-○ Uses single keyword
-○ Substitution based on Vigenère cipher table
-● Quagmire2 Cipher:
-○ Uses two keywords
-○ More complex encryption mechanism
-Dataset Generation
-● 100 plaintext samples encrypted using Quagmire1 and Quagmire2
-● Labeled dataset with ciphertext and corresponding algorithm
-Machine Learning Models
-● Naive Bayes: Probabilistic baseline classifier
-● Neural Networks: Learn abstract feature
