@@ -14,7 +14,7 @@ Features
 ○ Compressocrat Cipher
 ● Generates labeled dataset of plaintext and ciphertext
 ● Saves dataset to CSV file
-2. Machine Learning Models (mlcipherclassifier.py)
+<h2>2. Machine Learning Models (mlcipherclassifier.py)</h2>
 ● Data Preprocessing:
 ○ TF-IDF Vectorization
 ○ Sequence Tokenization
@@ -24,7 +24,7 @@ Features
 ○ LSTM (Long Short-Term Memory)
 ● Generates detailed performance reports
 ● Predicts encryption algorithm based on input
-3. Interactive Streamlit App (streamlitapp.py
+<h3>3. Interactive Streamlit App (streamlitapp.py)</h3>
 ● Visualizes model performance metrics
 ● Displays confusion matrices
 ● Allows real-time cipher algorithm prediction
